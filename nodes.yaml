@@ -1,0 +1,6 @@
+---
+hostname: tesla
+capabilities: [multiply, add]
+---
+hostname: curie
+capabilities: [add]

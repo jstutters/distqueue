@@ -1,0 +1,7 @@
+tasks:
+    - name: addition
+      call: /nethome/jstutters/programming/distqueue/add.py {{arg_1}} {{arg_2}} {{arg_3}}
+      requirements: [add]
+    - name: multiplication
+      call: /nethome/jstutters/programming/distqueue/mult.py {{arg_1}} {{arg_2}} {{arg_3}}
+      requirements: [mult]
